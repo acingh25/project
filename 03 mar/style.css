@@ -1,0 +1,37 @@
+html,body{
+
+}
+.input{
+    position:relative;
+
+}
+.icon{
+    height:20px;
+    width:10px;
+    background-color:blue;
+    position:absolute;
+    top:10px;
+    left:15px;
+}
+.chat{
+    height:100px;
+    width:100px;
+
+    border-radius: 50%;
+    background-color:pink;
+}
+.sub{
+    height:20px;
+    width:20px;
+    background-color:yellow;
+    position:fixed;
+    left:30px;
+    top:200px;
+}
+.header{
+    width:500px;
+    height:50px;
+    position:sticky;
+    top:0;
+    background-color:lightblue;
+}

@@ -1,0 +1,40 @@
+
+*{
+    box-sizing:border box;
+}
+html,body{
+    margin:0;
+    padding: 0;
+}
+.main{
+    height: 50px;
+    width: 200px;
+    background-color:blue;
+}
+.chat{
+    height: 50px;
+    width: 50px;
+    border-radius: 10%;
+    background-color:red;
+    top: 10px;
+    left: 50px;
+    right: 600;
+}
+.parent{
+    height: 200px;
+    background-color:pink;
+    justify-content: centre;
+    display: flex;
+    align-items: center;
+    position:relative
+}
+.sample{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    padding: 10px;
+    left: 600;
+    position:absolute;
+    margin: 500px;
+    
+}
